@@ -1,0 +1,24 @@
+{
+  "name": "mern-stack-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "start": "concurrently \"npm run client\" \"npm run server \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developersmatrix/mern-stack-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/developersmatrix/mern-stack-template/issues"
+  },
+  "homepage": "https://github.com/developersmatrix/mern-stack-template#readme",
+  "dependencies": {
+    "concurrently": "^6.2.0"
+  }
+}
